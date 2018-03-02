@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF8242F6201DEEAD006CA123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8242F5201DEEAD006CA123 /* AppDelegate.swift */; };
+		EF8242FB201DEEAD006CA123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8242F9201DEEAD006CA123 /* Main.storyboard */; };
+		EF8242FD201DEEAD006CA123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8242FC201DEEAD006CA123 /* Assets.xcassets */; };
+		EF824300201DEEAD006CA123 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8242FE201DEEAD006CA123 /* LaunchScreen.storyboard */; };
+		EF824308201DEEEA006CA123 /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF824307201DEEEA006CA123 /* SuperHero.swift */; };
+		EF82430A201DF240006CA123 /* SuperHeroEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF824309201DF240006CA123 /* SuperHeroEditViewController.swift */; };
+		EFA80CE0201E077700318C5B /* SuperHeroTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA80CDF201E077700318C5B /* SuperHeroTableViewController.swift */; };
+		EFE7466E2025E41D001C4A8B /* SuperHeroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7466C2025E41D001C4A8B /* SuperHeroTableViewCell.swift */; };
+		EFE7466F2025E41D001C4A8B /* SuperHeroTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFE7466D2025E41D001C4A8B /* SuperHeroTableViewCell.xib */; };
+		EFF39780202629E3008DB2A5 /* SuperHeroOPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF3977F202629E3008DB2A5 /* SuperHeroOPTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF8242F2201DEEAD006CA123 /* SuperHeroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHeroes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8242F5201DEEAD006CA123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF8242FA201DEEAD006CA123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF8242FC201DEEAD006CA123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF8242FF201DEEAD006CA123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF824301201DEEAD006CA123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF824307201DEEEA006CA123 /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
+		EF824309201DF240006CA123 /* SuperHeroEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroEditViewController.swift; sourceTree = "<group>"; };
+		EFA80CDF201E077700318C5B /* SuperHeroTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroTableViewController.swift; sourceTree = "<group>"; };
+		EFE7466C2025E41D001C4A8B /* SuperHeroTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroTableViewCell.swift; sourceTree = "<group>"; };
+		EFE7466D2025E41D001C4A8B /* SuperHeroTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuperHeroTableViewCell.xib; sourceTree = "<group>"; };
+		EFF3977F202629E3008DB2A5 /* SuperHeroOPTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroOPTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF8242EF201DEEAD006CA123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF8242E9201DEEAD006CA123 = {
+			isa = PBXGroup;
+			children = (
+				EF8242F4201DEEAD006CA123 /* SuperHeroes */,
+				EF8242F3201DEEAD006CA123 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF8242F3201DEEAD006CA123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF8242F2201DEEAD006CA123 /* SuperHeroes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF8242F4201DEEAD006CA123 /* SuperHeroes */ = {
+			isa = PBXGroup;
+			children = (
+				EF8242F5201DEEAD006CA123 /* AppDelegate.swift */,
+				EF824307201DEEEA006CA123 /* SuperHero.swift */,
+				EFE7466C2025E41D001C4A8B /* SuperHeroTableViewCell.swift */,
+				EFF3977F202629E3008DB2A5 /* SuperHeroOPTableViewCell.swift */,
+				EF824309201DF240006CA123 /* SuperHeroEditViewController.swift */,
+				EFA80CDF201E077700318C5B /* SuperHeroTableViewController.swift */,
+				EF8242F9201DEEAD006CA123 /* Main.storyboard */,
+				EFE7466D2025E41D001C4A8B /* SuperHeroTableViewCell.xib */,
+				EF8242FC201DEEAD006CA123 /* Assets.xcassets */,
+				EF8242FE201DEEAD006CA123 /* LaunchScreen.storyboard */,
+				EF824301201DEEAD006CA123 /* Info.plist */,
+			);
+			path = SuperHeroes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF8242F1201DEEAD006CA123 /* SuperHeroes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF824304201DEEAD006CA123 /* Build configuration list for PBXNativeTarget "SuperHeroes" */;
+			buildPhases = (
+				EF8242EE201DEEAD006CA123 /* Sources */,
+				EF8242EF201DEEAD006CA123 /* Frameworks */,
+				EF8242F0201DEEAD006CA123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperHeroes;
+			productName = SuperHeroes;
+			productReference = EF8242F2201DEEAD006CA123 /* SuperHeroes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF8242EA201DEEAD006CA123 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ACA;
+				TargetAttributes = {
+					EF8242F1201DEEAD006CA123 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF8242ED201DEEAD006CA123 /* Build configuration list for PBXProject "SuperHeroes" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF8242E9201DEEAD006CA123;
+			productRefGroup = EF8242F3201DEEAD006CA123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF8242F1201DEEAD006CA123 /* SuperHeroes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF8242F0201DEEAD006CA123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF824300201DEEAD006CA123 /* LaunchScreen.storyboard in Resources */,
+				EF8242FD201DEEAD006CA123 /* Assets.xcassets in Resources */,
+				EF8242FB201DEEAD006CA123 /* Main.storyboard in Resources */,
+				EFE7466F2025E41D001C4A8B /* SuperHeroTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF8242EE201DEEAD006CA123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF82430A201DF240006CA123 /* SuperHeroEditViewController.swift in Sources */,
+				EFE7466E2025E41D001C4A8B /* SuperHeroTableViewCell.swift in Sources */,
+				EFF39780202629E3008DB2A5 /* SuperHeroOPTableViewCell.swift in Sources */,
+				EF8242F6201DEEAD006CA123 /* AppDelegate.swift in Sources */,
+				EFA80CE0201E077700318C5B /* SuperHeroTableViewController.swift in Sources */,
+				EF824308201DEEEA006CA123 /* SuperHero.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF8242F9201DEEAD006CA123 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8242FA201DEEAD006CA123 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF8242FE201DEEAD006CA123 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8242FF201DEEAD006CA123 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF824302201DEEAD006CA123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF824303201DEEAD006CA123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF824305201DEEAD006CA123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuperHeroes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SuperHeroes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF824306201DEEAD006CA123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuperHeroes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SuperHeroes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF8242ED201DEEAD006CA123 /* Build configuration list for PBXProject "SuperHeroes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF824302201DEEAD006CA123 /* Debug */,
+				EF824303201DEEAD006CA123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF824304201DEEAD006CA123 /* Build configuration list for PBXNativeTarget "SuperHeroes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF824305201DEEAD006CA123 /* Debug */,
+				EF824306201DEEAD006CA123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF8242EA201DEEAD006CA123 /* Project object */;
+}
